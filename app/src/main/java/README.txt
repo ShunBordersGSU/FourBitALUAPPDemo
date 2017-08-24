@@ -1,0 +1,1 @@
+This is an android application used to demo the basic functionality of a Four Bit ALU.

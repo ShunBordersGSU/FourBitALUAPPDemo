@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 sub.setClickable(false);
+                add.setClickable(false);
+
                 FourBitALU fba = new FourBitALU();
                 fba.setA(aa0, aa1, aa2, aa3);
                 fba.setB(bb0, bb1, bb2, bb3);
@@ -139,6 +141,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 add.setClickable(false);
+                sub.setClickable(false);
+
                 FourBitALU fba = new FourBitALU();
                 fba.setA(aa0, aa1, aa2, aa3);
                 fba.setB(bb0, bb1, bb2, bb3);
